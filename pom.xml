@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.sudo248</groupId>
+    <artifactId>mshop</artifactId>
+    <version>0.0.1</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <main.baseDir>${project.basedir}</main.baseDir>
+    </properties>
+
+    <modules>
+
+        <module>domain</module>
+
+        <!--    port: 8761 -->
+        <module>registry</module>
+
+        <!--    port: 8080    -->
+        <module>api-gateway</module>
+
+        <!--    port: 8081    -->
+        <module>user-service</module>
+
+        <!--    port: 8082    -->
+        <module>auth-service</module>
+
+        <!--    port: 8083    -->
+        <module>product-service</module>
+
+        <!--    port: 8084-->
+        <module>cart-service</module>
+
+        <!--    port: 8085-->
+        <module>order-service</module>
+
+        <!--    port: 8086    -->
+        <module>storage-service</module>
+
+        <!--    port: 8087-->
+        <module>notification-service</module>
+
+    </modules>
+
+</project>
